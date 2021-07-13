@@ -1,0 +1,162 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kidney Disease Prediction</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    
+    <main role="main">
+
+      <section class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Chronic Kidney Disease Prediction</h1>
+          <p class="lead">Chronic kidney disease (CKD) is one of the most
+critical health problems due to its increasing prevalence. In this
+paper, we aim to test the ability of machine learning algorithms
+for the prediction of chronic kidney disease using the smallest
+subset of features</p>
+          <p>
+            <a href="https://www.mayoclinic.org/diseases-conditions/chronic-kidney-disease/symptoms-causes/syc-20354521" class="btn btn-primary my-2">Read More about the Disease</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">Machine Learning</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Random Forest</a>
+              </h3>
+              <div class="mb-1 text-muted">For Regression & Classification</div>
+              <p class="card-text mb-auto">Random forest is a supervised learning algorithm. ... The general idea of the bagging method is that a combination of learning models increases the overall result. Put simply: random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.</p>
+              <a href="#">Continue reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success">Model & Algorithm</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">XGBoost</a>
+              </h3>
+              <div class="mb-1 text-muted">Gradient Boosting Machine</div>
+              <p class="card-text mb-auto">XGBoost is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data. XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.</p>
+              <a href="#">Continue reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://cdn.icon-icons.com/icons2/2593/PNG/512/data_icon_154512.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Data-Set</h2>
+            <p>We have used the data set available in Kaggle - Chronic-Kidney Disease Prediction. After Classifying the data, Preprocessin and performed the Exploratory Data Analysis. This data set contains about 1338 records of data in various categories.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://www.edureka.co/blog/wp-content/uploads/2019/01/Classification-Random-Forest-Random-Forest-In-R-Edureka-2-381x300.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Algorithm</h2>
+            <p>Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning to improve the performance of the model.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2016/05/25/13/18/target-1414775_960_720.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Accuracy</h2>
+            <p>XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data. After modelling our data, the Accuracy is <b>98%.</b> So far we achieved a Good accuracy. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">How it will works</h2>
+            <p class="lead">This prediction will be used in healthcare Applications. As it was very important to predict weather the patient was having any chances of getting this Kidney Disease. This project comprises with the deployement too. we can deploy this project y means of Python web servers available in the market.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">Conflicts & Modifications</h2>
+            <p class="lead">Since, we deployed our model in Flask - Framework. As, this was a simple classification and regression analysis. There might be some problems arises during the installationof Tensorflow & Python Versions. we must make sure of Installing the same versions. In order to avoid this, We must ensure to install the correct dependencies - before running this project.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">Future implementations</h2>
+            <p class="lead">Django - Frameowrk will be more suitable for the deployement at any case. At the same, adding the feature - Upload image and process the X-Ray image and predict for any chances of getting the disease.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+      <section class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Chronic Kidney Disease Prediction</h1>
+          <p class="lead">Chronic kidney disease (CKD) is one of the most
+critical health problems due to its increasing prevalence. In this
+paper, we aim to test the ability of machine learning algorithms
+for the prediction of chronic kidney disease using the smallest
+subset of features</p>
+          <p>
+            <a href="{{ url_for('kidneyPage') }}" class="btn btn-primary my-2">Check out the Project</a>
+          </p>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
+
+{% endblock %}
