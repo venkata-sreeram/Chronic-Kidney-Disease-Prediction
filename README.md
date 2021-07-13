@@ -22,7 +22,7 @@ This webapp was developed using Flask Web Framework. The models used to predict 
 3. Create a virtual environment
 
 ```
-mkvirtualenv environment_name
+python -m venv /path/to/new/virtual/environment
 ```
 
 4. Install all the dependencies:
