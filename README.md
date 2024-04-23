@@ -14,7 +14,6 @@ This webapp was developed using Flask Web Framework. The models used to predict 
 
 ![image](https://user-images.githubusercontent.com/62790398/125475606-78b45b72-14d5-4399-bcf5-34f3a8bbb9ff.png)
 
-
 ## Steps to run this application in your system
 
 1. Clone or download the repo.
@@ -45,13 +44,16 @@ The dataset were used from kaggle.
 
 ## Models with their Accuracy of Prediction
 
-| Disease        | Type of Model            | Accuracy |
-| -------------- | ------------------------ | -------- |
-| Kidney-Disease       | Machine Learning Model   | 98.33%   |
+| Disease        | Type of Model          | Accuracy |
+| -------------- | ---------------------- | -------- |
+| Kidney-Disease | Machine Learning Model | 98.33%   |
 
 ## I Hope this Will be Useful to practise the Machine Learning.
+
 - If you like this Project - Give me a Star⭐⭐
 - For more Intresting Project, Follow me in Github
 - [LinkedIN](https://linkedin.com/in/venkata-sreeram)
+
 #### Best regards:
-### Venkata Sreeram😊
+
+### Surya😊
